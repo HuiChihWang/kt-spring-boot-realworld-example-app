@@ -1,3 +1,14 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -7,7 +18,13 @@
 # IDEs and editors
 /.idea
 .project
-.classpath
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
 .c9/
 *.launch
 .settings/
@@ -20,12 +37,30 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
+### VS Code ###
+.vscode/
 #System Files
 .DS_Store
 Thumbs.db
 
+### Kotlin ###
+.kotlin
 
 #log files
 npm-debug.log*
